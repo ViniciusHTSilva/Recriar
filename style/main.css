@@ -8,9 +8,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Elementos base*/
 body{
     background:var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color:white;
 }
 
 header .container{
@@ -36,3 +38,26 @@ header nav a:hover{
     /*Evento de passar o mouse por cima do menu */
     color: #fff;
     }
+
+    /*Filme Principal loki*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/loki.jpg');
+    /*Tamanho da caixa*/
+    height: 400px;
+    background-size: cover; /*deixa a img do tamanho da caixa*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;/*começa sempre da esquerda*/
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size: 40px;
+    
+}
