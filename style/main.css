@@ -84,3 +84,18 @@ header nav a:hover{
 .botao i{
 margin-right: 8px;
 }
+
+/*# WEAPPER = ENVELOPAR*/
+
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{
+    width: 70%;/*esta dando uma limitação*/
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
