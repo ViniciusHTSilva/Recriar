@@ -1,4 +1,4 @@
-@media screen and (max-width:700px){
+@media screen and (max-width:578px){
 
 header .container{
      display: flex;
@@ -13,11 +13,14 @@ header .container{
 
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:578px){
 
     .descricao{
         width: 50%;/*largura*/
         
     }
-
+.carrosel-filmes{
+   
+    margin-top: 15px;
+}
 }
